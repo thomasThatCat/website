@@ -1,0 +1,100 @@
+
+
+*{
+   
+   font-family: Georgia, serif;
+ 
+   animation: myAn 5s 0s 1 ;
+  
+}
+nav {
+   position: fixed;
+}
+
+@keyframes myAn {
+ from{color: rgba(240, 248, 255, 0);}
+ to{ color: black;}
+}
+a {
+   font-size: xx-large;
+}
+.background {
+   background-color: lightgrey;
+}
+.projects-home div{
+   float: left;
+   width: 33.3%;
+   height: 800px;
+   padding-top: 10px;
+   background-color: beige;
+   border: 1px dotted black;
+   border-radius: 20px;
+   align-self: center;
+   text-align: center;
+   
+}
+.projects-home {
+
+   
+}
+.projects-home h2 {
+   display: flex;
+   padding-top: 5ch;
+}
+img{
+   border: 4px dotted black;
+   border-radius: 10px;
+}
+
+.main-look {
+   margin: auto;
+   width: 95%;
+   padding: 20px;
+   padding-top: 100px;
+}
+
+.container-fluid li {
+   padding-left: 600px;
+   color: aliceblue;
+   position: fixed;
+
+}
+.nav-item a {
+   font-size: x-large;
+}
+.nav-item a:hover {
+  background-color: rgba(215, 159, 255, 0.696);
+ 
+}
+
+.container-fluid a{
+   font-size: x-large;
+}
+.container-fluid a:hover{
+   background-color: rgba(215, 159, 255, 0.696);
+
+}
+
+
+.about h1 {
+   padding-top: 100px;
+}
+.about p {
+   line-height: 1.6em;
+   padding-top: 100px;
+   font-size: large;
+   padding-left: 10px;
+   padding-right:  10px;
+}
+
+.blogs {
+   border: 1px solid black;
+  
+}
+.blogs:hover {
+   border:4px solid black;
+}
+.blogs h1,p{
+   padding-top: 30px;
+  
+}

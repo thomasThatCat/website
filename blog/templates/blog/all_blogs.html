@@ -1,0 +1,27 @@
+{% extends 'porfolio/base.html' %}
+
+
+
+
+{% block 'content'%}
+
+
+
+
+
+<center>
+<h1> {{ data.count  }} blog{{  data.count|pluralize }}</h1>
+{% for i in data %}
+
+<div class="blogs">
+<a href="{% url 'blog:detail' i.id %}"><h2>{{ i.title }}</h2></a>
+<h5>{{ i.date }}</h5>
+
+<p>{{ i.desc|truncatechars:50 }}</p>
+</div>
+
+{% endfor %}
+</center>
+
+
+{% endblock %}
